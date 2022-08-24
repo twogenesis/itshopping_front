@@ -1,8 +1,8 @@
 <template>
     <div class="wrap">
         <HeaderComp />
-        <h1>Management</h1>
         <div class="contents">
+            <h1>Management</h1>
             <router-view />
         </div>
     </div>
@@ -16,3 +16,9 @@ export default {
     components:{HeaderComp}
 }
 </script>
+
+<style lang="scss" scoped>
+    .contents {
+        padding-left: 270px;
+    }
+</style>
