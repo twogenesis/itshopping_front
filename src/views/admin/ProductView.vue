@@ -86,7 +86,6 @@
                     data.price = data.price.toLocaleString();
                     data.release_dt = this.makeReleaseDt(new Date(data.release_dt));
                 })
-                // console.log(this.productList);
                 this.nodata = this.productList.length == 0;
             },
             order() {
